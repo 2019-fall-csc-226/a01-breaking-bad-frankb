@@ -15,13 +15,62 @@
 # Remember to read the detailed notes about each task in the A01 document.
 
 ######################################################################
-# (Required) Task 1
-# TODO Ask user for their birth year
+import time     # This is too create time lapse
+######################################################################
+# This Section is to acquire person's name and birth year
 
+name = input("Well hey there! What is your Name?")
+print("I hope you're doing okay today, " + name + '!')
+print('')
+birth_year1 = int(input("So, what year were your born?"))
 
-# TODO Check the year using if conditionals, and print the correct animal for that year.
-# See the a01_pets.py for examples
+######################################################################
+# This formula takes the year given and converts it into a counter from 0-11
+zodiac_number1= birth_year1 % 12
 
+# This assigns the counter to the correct Zodiac animal
+if zodiac_number1 == 0:
+    zodiac_animal1 = 'Monkey'
+elif zodiac_number1 == 1:
+    zodiac_animal1 = 'Rooster'
+elif zodiac_number1 == 2:
+    zodiac_animal1 = 'Dog'
+elif zodiac_number1 == 3:
+    zodiac_animal1 = 'Pig'
+elif zodiac_number1 == 4:
+    zodiac_animal1 = 'Rat'
+elif zodiac_number1 == 5:
+    zodiac_animal1 = 'Ox'
+elif zodiac_number1 == 6:
+    zodiac_animal1 = 'Tiger'
+elif zodiac_number1 == 7:
+    zodiac_animal1 = 'Rabbit'
+elif zodiac_number1 == 8:
+    zodiac_animal1 = 'Dragon'
+elif zodiac_number1 == 9:
+    zodiac_animal1 = 'Snake'
+elif zodiac_number1 == 10:
+    zodiac_animal1 = 'Horse'
+else:
+    zodiac_animal1 = 'Goat'
+
+######################################################################
+# This next section displays the name. All the extra coding was for aesthetic
+# The time.sleep helps the program look like its "thinking"
+
+print("Lets see here.")
+time.sleep(2)
+print("If you were born then,")
+time.sleep(2)
+print("then thaaaat means...")
+time.sleep(2)
+print('.')
+time.sleep(1)
+print('.')
+time.sleep(1)
+print('.')
+time.sleep(1)
+print('Ah! So according to the Chinese Zodiac, you are a ' + zodiac_animal1 + '!')
 
 ######################################################################
 # (Required) Task 2
