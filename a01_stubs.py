@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Dr. Scott Heggen      TODO: Change this to your name
-# Username: heggens             TODO: Change this to your username
+# Author: Bryar Frank
+# Username: frankb
 #
 # Assignment: A01
 #
@@ -10,10 +10,6 @@
 ######################################################################
 # Acknowledgements:
 #   Original Author: Dr. Scott Heggen
-######################################################################
-
-# Remember to read the detailed notes about each task in the A01 document.
-
 ######################################################################
 import time     # This is too create time lapse
 ######################################################################
