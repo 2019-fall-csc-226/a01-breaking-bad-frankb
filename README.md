@@ -1,10 +1,8 @@
 # A01: Breaking Bad
 
-Name: ____________
+Name: Bryar Frank
 
-Name (if working with a partner): ____________
+Repository Link: https://github.com/2019-fall-csc-226/a01-breaking-bad-frankb
 
-Repository Link: ______________
-
-Google Doc Link: ______________
+Google Doc Link: https://docs.google.com/document/d/1DZGjQCdiVCLulTbafx7N3LYTEbbKwnobUWD5Uo3zL2c/edit?usp=sharing
 
