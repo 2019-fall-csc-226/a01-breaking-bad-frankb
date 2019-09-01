@@ -55,11 +55,11 @@ else:
 # The time.sleep helps the program look like its "thinking"
 
 print("Lets see here.")
-time.sleep(2)
+time.sleep(1)
 print("If you were born then,")
 time.sleep(2)
 print("then thaaaat means...")
-time.sleep(2)
+time.sleep(1)
 print('.')
 time.sleep(1)
 print('.')
@@ -108,7 +108,7 @@ if want_friend == "yes" or want_friend == "Yes":
     time.sleep(2)
     print("Give me a second to figure this out")
     time.sleep(2)
-    print("So, if you are a " + zodiac_animal1 + ",")
+    print("So, you are a " + zodiac_animal1 + ",")
     time.sleep(1)
     print('and I see that your friend is a ' + zodiac_animal2 + ',')
     time.sleep(1)
@@ -117,9 +117,9 @@ if want_friend == "yes" or want_friend == "Yes":
 #########################################################################
 # (Optional) Task 3
 # Here, the program takes the difference between the two years.
-# If they are 0,4, or 8 years apart, they are a match
-# If they are 6 years apart, they are not a match
-    match_coefficient = abs(birth_year1 - birth_year2)
+# If they are a multiple of 0,4, or 8 years apart, they are a match
+# If they are a multiple of 6 years apart, they are not a match
+    match_coefficient = abs(birth_year1 - birth_year2) % 12
     if match_coefficient == 0 or match_coefficient == 4 or match_coefficient == 8:
         print('You and your friend are a match made in heaven!!!')
         time.sleep(2)
