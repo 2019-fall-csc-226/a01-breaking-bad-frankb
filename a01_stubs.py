@@ -55,20 +55,20 @@ else:
 # The time.sleep helps the program look like its "thinking"
 
 print("Lets see here.")
-# time.sleep(2)
+time.sleep(2)
 print("If you were born then,")
-# time.sleep(2)
+time.sleep(2)
 print("then thaaaat means...")
-# time.sleep(2)
+time.sleep(2)
 print('.')
-# time.sleep(1)
+time.sleep(1)
 print('.')
-# time.sleep(1)
+time.sleep(1)
 print('.')
-# time.sleep(1)
+time.sleep(1)
 print('Ah! So according to the Chinese Zodiac, you are a ' + zodiac_animal1 + '!')
 print("That's so cool!")
-# time.sleep(2)
+time.sleep(2)
 ######################################################################
 # This section asks for the birth year of a friend
 
